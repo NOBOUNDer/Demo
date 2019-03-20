@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin:0;
+    border:none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    font-size: 0;
+    color:inherit;
+}
+/* //Ë½ÓÐÑùÊ½// */
+body {
+    min-width: 375px;
+    background-color: #ffffff;
+}
+.container {
+    max-width: 1140px;
+    margin:0 auto;
+    padding:0 10px;
+}
+.nav_bar {
+    margin:0 10px;
+    overflow: hidden;
+    position: relative;
+}
+.logo {
+    float:left;
+    width:25%;
+    margin:10px 0;
+    max-width: 240px;
+}
+.logo img {
+    width:100%;
+    display: block;
+}
+.nav .pc {
+    display: flex;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    align-items: center;
+}
+.nav .pc a {
+    padding:0 15px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+    color:#444;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+.nav .pc a i {
+    border:10px solid transparent;
+    position: absolute;
+    z-index: 1111;
+    left:50%;
+    transform:translate(-50%);
+    bottom: -5px;
+}
+.nav .pc a:first-child {
+    color:#9a7241;
+    border-bottom-color: #9a7241
+}
+.nav .pc a:first-child i {
+    border-bottom-color:#9a7241;
+}
+.nav .pc a:hover {
+    color:#9a7241;
+    border-bottom-color: #9a7241
+}
+.nav .pc a:hover i {
+    border-bottom-color:#9a7241;
+}
+.nav .mobile {
+    position:absolute;
+    right:0;
+    top:50%;
+    transform:translateY(-50%);
+    display: none;
+}
+.nav .mobile img {
+    display: block;
+    width:25px;
+}
+.banner img {
+    width:100%;
+    display: block;
+}
+.slogan {
+    text-align: center;
+    width:80%;
+    margin:0 auto 20px;
+    padding:50px 0 10px;
+}
+.slogan h1 {
+    font-size:30px;
+    color:#cda574;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.slogan h2 {
+    font-size: 30px;
+    color:#666;
+    font-weight: normal;
+    margin-bottom:10px;
+}
+.slogan span {
+    color:#9a7241
+}
+.slogan .line {
+    height:3px;
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 15px;
+}
+.slogan .line img {
+    height:3px;
+}
+.slogan p {
+    font-size: 14px;
+    color:#999;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.about .detail {
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.about .left {
+    float: left;
+    width:50%;
+    background: url("../img/book_03.png") center center no-repeat;
+    background-size:100% 100%;
+    padding:50px 0 100px;
+}
+.about .right {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    float: left;
+    width:50%;
+    background: url("../img/book_04.png") center center no-repeat;
+    background-size:100% 100%;
+    padding:50px 0 100px;
+}
+.about .detail img {
+    display: block;
+    width:80%;
+    margin:0 auto;
+}
+.about .links {
+    width:80%;
+    margin:0 auto 15px;
+}
+.about .links a {
+    display: inline-block;
+    width:20%;
+    font-size: 18px;
+    line-height: 38px;
+    background: #9a7241;
+    border-radius: 5px;
+    text-align: center;
+    color:white;
+    position: relative;
+}
+.about .links i {
+    position: absolute;
+    width:10px;
+    height:10px;
+    background: inherit;
+    bottom:-5px;
+    left:15px;
+    transform:rotate(45deg);
+}
+.about .links a:hover {
+    background: #644115;
+}
+.about .right p {
+    width:80%;
+    margin:0 auto;
+    font-size: 14px;
+    line-height:30px;
+    color:#644115;
+    text-indent: 2em;
+}
+.about .right>a {
+    font-size: 12px;
+    display: inline-block;
+    color:#333;
+    margin-left: 50%;
+    transform:translateX(-50%);
+}
+.about .right>a:hover {
+    color:orangered;
+}
+.activity .detail {
+    width:100%;
+    overflow: hidden;
+}
+.activity .left {
+    float: left;
+    width:25%;
+    position: relative;
+    font-size: 0;
+}
+.activity .left img {
+    width:100%;
+}
+.activity .recent{
+    padding:20px;
+    background:#cdaf8b;
+    color:white;
+    height:100%;
+    overflow: hidden;
+}
+.activity .recent h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+.activity .recent .h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.activity .recent span {
+    display: block;
+    height:3px;
+    background: white;
+    width:20px;
+    margin-bottom: 10px;
+}
+.activity .recent p {
+    font-size: 14px;
+    line-height:24px;
+    margin-bottom: 10px;
+}
+.activity .recent a {
+    display: inline-block;
+    font-size:16px;
+    padding:0 15px;
+    line-height:30px;
+    background: white;
+    color:#9a7241;
+    border-radius:15px;
+    margin-bottom:100px;
+}
+.activity .product {
+    width:75%;
+    float: left;
+    height:100%;
+    display: flex;
+}
+.activity .product img {
+    width:100%;
+}
+@media (max-width: 1160px) {
+    .about .left {
+        padding: 0;
+        background: none;
+    }
+    .about .right {
+        padding: 0;
+        background: none;
+    }
+    .about .detail img {
+        width:100%;
+    }
+    /*.about .right>a {
+        position: absolute;
+        bottom:30px;
+    }*/
+}
+@media (max-width:990px) {
+    .about .left {
+        width:100%;
+        margin-bottom:20px;
+    }
+    .about .right {
+        width:100%;
+        position:relative;
+    }
+    .about .right .links {
+        width:100%;
+    }
+    .about .right p {
+        width:100%;
+    }
+    .about .right>a {
+        position: static;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .nav .pc {
+        display: none;
+    }
+    .nav .mobile {
+        display: block;
+    }
+    .slogan h1,.slogan h2 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,136 @@
+*{
+  user-select: text !important;
+}
+header{
+  min-height: 360px !important;
+  overflow: visible;
+}
+.case-banner{
+  height: 360px;
+  overflow: hidden;
+  background: url("../img/customer-banner.jpg") no-repeat center;
+  color: #fff;
+  text-align: center;
+  h3{
+    font-size: 36px;
+    margin-bottom: 36px;
+    margin-top: 145px;
+  }
+  p{
+    font-size: 14px;
+    width: 560px;
+    margin: 0 auto;
+  }
+}
+.filtrate{
+  padding: 72px 0;
+  width: 1220px;
+  overflow: hidden;
+  margin: 0 auto;
+  .filtrate-title{
+    &:after{
+      display: block;
+      content: '';
+      clear: both;
+    }
+    h3{
+      font-size:30px;
+      display: inline-block;
+    }
+    ul{
+      float: right;
+      margin-right: 42px;
+      li{
+        margin-left: 10px;
+        font-size: 16px;
+        float: left;
+        color: #666;
+        background: #f7f9fa;
+        padding: 10px 45px;
+        position: relative;
+        cursor: pointer;
+        i{
+          display: none;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-top: 7px solid dodgerblue;
+          position: absolute;
+          bottom: -6px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        &:hover{
+          background: dodgerblue;
+          color: #fff;
+          i{
+            display: block;
+          }
+        }
+      }
+      li:nth-of-type(1){
+        background: dodgerblue;
+        color: #fff;
+        i{
+          display: block;
+        }
+      }
+    }
+  }
+  .filtrate-list{
+    position: relative;
+    min-height: 852px;
+    margin-top: 80px;
+    ul{
+      li{
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+        dl{
+          width: 1240px;
+          margin-left: -20px;
+          &:after{
+            display: block;
+            content: '';
+            clear: left;
+          }
+          dt{
+            width: 288px;
+            border: 1px solid #dddddd;
+            padding: 10px 0;
+            float: left;
+            margin: 0 0 20px 20px;
+            a{
+              display: block;
+              text-align: center;
+              margin-bottom: 20px;
+              &:hover{
+                color: dodgerblue;
+              }
+              span{
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: bold;
+              }
+              img{
+                display: block;
+                height: 100px;
+                max-width: 100%;
+                margin: 0 auto 40px;
+              }
+            }
+            p{padding: 20px 20px 0;
+              height: 194px;
+              text-align: justify;
+              line-height: 24px;
+              color: #666666;
+              overflow: hidden;
+              font-size: 14px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

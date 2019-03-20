@@ -1,0 +1,80 @@
+.search {
+  background: url("../img/mobile/banner.jpg") no-repeat center;
+  color: #fff;
+  padding: 0 15px 15px;
+}
+.search h3 {
+  text-align: center;
+  padding: 25px 0 20px;
+  font-size: 21px;
+}
+.search input {
+  width: 85%;
+  height: 42px;
+  line-height: 42px;
+  vertical-align: top;
+  font-size: 13px;
+  padding-left: 10px;
+  color: #000;
+}
+.search button {
+  width: 15%;
+  height: 42px;
+  background: url("../img/mobile/search.png") no-repeat center;
+  background-color: #f8f8f8;
+}
+.search p {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.search p a:first-of-type {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+.search p a:last-of-type {
+  padding-left: 10px;
+}
+.advantage {
+  background: #fff;
+  margin-top: 15px;
+}
+.advantage h3 {
+  text-align: center;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 15px 0;
+  font-size: 18px;
+}
+.advantage ul {
+  width: 90%;
+  margin: 0 auto;
+}
+.advantage ul li {
+  border-bottom: 1px solid #e3e3e3;
+  padding: 10px 0;
+}
+.advantage ul li em {
+  font-style: normal;
+}
+.advantage ul li em:before {
+  display: inline-block;
+  content: '';
+  background: url("../img/mobile/domain_ico1.png") no-repeat center;
+  background-size: 27px;
+  width: 27px;
+  height: 27px;
+  vertical-align: top;
+  margin-right: 15px;
+}
+.advantage ul li p {
+  font-size: 13px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: #888;
+}
+.advantage ul li:last-of-type {
+  border-bottom: none;
+}
+footer {
+  padding-top: 25px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>云虚拟主机_虚拟空间_网站空间租用尽在蓝队云</title>
+    <meta name="keywords" content="虚拟主机,虚拟空间,网站主机空间">
+    <meta name="description" content="蓝队云提供高速稳定的网站虚拟空间，基于云服务器技术架构，每周数据自动备份，数据更安全，服务更省心。">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/m.index.css">
+    <link rel="shortcut icon" href="../img/mobile/favicon.ico">
+    <link rel="stylesheet" href="../css/m.hosting.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <!--顶部导航-->
+    <div class="top-nav">
+        <div class="logo">
+            <a href=""><img src="../img/mobile/logo.png" alt=""></a>
+        </div>
+        <span class="menu-open"></span>
+        <div class="nav-list" >
+            <div class="container" id="nav-h">
+                <ul>
+                    <li><a href="">云服务器</a></li>
+                    <li><a href="">域名注册</a></li>
+                    <li><a href="">云虚拟主机</a></li>
+                    <li><a href="">服务器租用</a></li>
+                    <li><a href="">服务器托管</a></li>
+                    <li><a href="">SSL证书</a></li>
+                    <li>
+                        <a href="javascript:void(0)" class="nav-lv2">解决方案</a>
+                        <dl style="height: 0;">
+                            <dt><a href="">金融云解决方案</a></dt>
+                            <dt><a href="">电商云解决方案</a></dt>
+                            <dt><a href="">游戏云解决方案</a></dt>
+                            <dt><a href="">网站云解决方案</a></dt>
+                            <dt><a href="">移动云解决方案</a></dt>
+                            <dt><a href="">视频云解决方案</a></dt>
+                        </dl>
+                    </li>
+                    <li><a href="">帮助中心</a></li>
+                    <li>
+                        <a href="javascript:void(0)" class="nav-lv2">关于我们</a>
+                        <dl style="height: 0;">
+                            <dt><a href="">关于我们</a></dt>
+                            <dt><a href="">发展历程</a></dt>
+                            <dt><a href="">参观公司</a></dt>
+                            <dt><a href="">荣誉资质</a></dt>
+                            <dt><a href="">加入蓝队</a></dt>
+                            <dt><a href="">联系我们</a></dt>
+                        </dl>
+                    </li>
+                </ul>
+                <p><a href="">登录</a><a href="">注册</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="lists">
+        <ul>
+            <li><a href="#">基础主机系列</a></li>
+            <li><a href="#">极速商务系列</a></li>
+            <li><a href="">企业主机系列</a></li>
+            <li><a href="">LINUX主机系列</a></li>
+            <li><a href="">JSP主机系列</a></li>
+            <li><a href="">多线主机系列</a></li>
+            <li><a href="">香港主机系列</a></li>
+            <li><a href="">美国主机系列</a></li>
+            <li><a href="">ASP.NET主机系列</a></li>
+            <li><a href="">网店主机系列</a></li>
+            <li><a href="">超级空间系列</a></li>
+            <li><a href="">独立IP主机</a></li>
+        </ul>
+    </div>
+    <script>
+        var key=true;
+        var key2=true;
+        $(".menu-open").click(function () {
+            if ((key)) {
+                h=$(window).height()-$(".top-nav").height();
+                console.log(h);
+                $("body").css({overflowY:'hidden'});
+                $("body").css({height:'100%'})
+                $(this).next().css({height:h});
+                $(this).css({background:"url('../img/mobile/menu_close.png') center no-repeat",backgroundSize:"16px"});
+                /* var height = document.getElementById('nav-h').scrollHeight;    //滚动内容的高度
+                 var boxHeight = 560;   //滚动盒子的高度
+                 console.log(height);
+                 console.log(boxHeight);
+                 $('.nav-list').scroll(function(){
+                     var _top = $('.nav-list').scrollTop();   //滑动距离top的高度
+                     console.log(_top);
+                     if(_top === (height - boxHeight)) {   //理想情况下 滑动到最底部是等于scrollHeight-boxHeight的
+                         $('.nav-list').scrollTop(_top - 1);   //改变scrollTop值 永远滑不到最底部
+                         console.log($('.nav-list').scrollTop);
+                     }});*/
+                key=false;
+            }else{
+                $("body").css({overflowY:''});
+                $(this).next().css({height:""});
+                $(this).css({background:""});
+                key=true;
+            }
+        });
+
+        $(".nav-lv2").click(function () {
+            if (($(this).next().height()==0)) {
+                $(this).next().css({height:"264px"});
+                $(this).css({background:"url('../img/mobile/top_menu_close.png') right center no-repeat",backgroundSize:"12px"});
+                key2=false;
+            }else{
+                $(this).next().css({height:0});
+                $(this).css({background:""});
+                key2=true;
+            }
+        });
+
+        $(".news-title").click(function () {
+            $(".news-title").css({borderTop:"",color:""});
+            $(".news-info dl").css({display:"none"});
+            $(this).css({borderTop:"2px solid dodgerblue",color:"dodgerblue"});
+            $(".news-info dl").eq($(this).index()).css({display: "block"});
+        });
+    </script>
+</body>
+</html>

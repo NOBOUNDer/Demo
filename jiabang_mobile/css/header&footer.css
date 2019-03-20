@@ -1,0 +1,93 @@
+/* 清除默认样式 */
+*,:before,:after {
+    padding:0;
+    margin:0;
+    border:none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+a {
+    font-size: 0;
+    text-decoration: none;
+    color:inherit;
+}
+/* 私有样式 */
+html {
+    font-size: 12px;
+    height:100%
+}
+@media (min-width: 320px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (min-width: 375px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (min-width:768px) {
+    html {
+        font-size: 16px;
+    }
+}
+body {
+    min-width: 320px;
+    background: #f5f5f5;
+    height: 100%;
+    padding-bottom: 3.64rem;
+}
+.head {
+    background: white;
+    text-align: center;
+    position: relative;
+    height:3.57rem;
+    padding:0 0.71rem;
+}
+.head h3 {
+    font-size:1.43rem;
+    color:#666;
+    line-height: 3.57rem;
+    font-weight: normal;
+}
+.head a {
+    font-size:1.29rem;
+    color:#ff2c4c;
+    line-height: 3.57rem;
+    position: absolute;
+    left:0;
+    font-weight:bold;
+    width:3.57rem;
+}
+footer {
+    position: fixed;
+    background: white;
+    bottom: 0;
+    border-top: 1px solid #dadada;
+    width:100%;
+    z-index: 1000;
+}
+.bottom {
+    overflow: hidden;
+}
+.bottom li {
+    float: left;
+    width:33.33%;
+    text-align: center;
+}
+.bottom a {
+    display: block;
+    padding:0.50rem 0;
+    color: #999;
+}
+.bottom i {
+    font-size:1.43rem;
+}
+.bottom p {
+    font-size: 0.86rem;
+}
+/*
+.bottom li:first-of-type a {
+    color: orangered;
+}*/

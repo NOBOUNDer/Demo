@@ -1,0 +1,53 @@
+.user_wallet {
+    text-align: center;
+    padding:2.14rem 0;
+}
+.user_wallet h1 {
+    font-size: 2.86rem;
+    line-height: 4.29rem;
+    font-weight: normal;
+    color: orangered;
+}
+.user_wallet p {
+    font-size: 1.00rem;
+    color:#333;
+}
+.money {
+    background: white;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    position: relative;
+}
+.money a {
+    width:50%;
+    text-align: center;
+    font-size: 1.43rem;
+    line-height:3.57rem;
+    color: #333;
+}
+.money em {
+    position: absolute;
+    width:1px;
+    height:60%;
+    background: #dadada;
+    left: 50%;
+    top:20%;
+}
+.card {
+    font-size: 1.00rem;
+    color: #333;
+    line-height: 3.21rem;
+    display: block;
+    background: white;
+    margin:1.07rem 0;
+    padding-left:1.43rem;
+    padding-right:1.07rem;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    overflow: hidden;
+}
+.card i {
+    float: right;
+    line-height: inherit;
+}

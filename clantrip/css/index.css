@@ -1,0 +1,348 @@
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+body {
+    min-width: 320px;
+}
+header {
+    padding:15px 0;
+    border-bottom: 2px solid #0ba1e4;
+    background: rgba(255,255,255,0.95);
+    position: fixed;
+    width:100%;
+    z-index: 11111;
+    top:0;
+}
+.header_nav .logo img {
+    max-height:50px;
+}
+.pc_nav a {
+    font-size: 16px;
+    line-height:50px;
+    color:#777;
+    padding:0 15px;
+    text-decoration: none!important;
+    position: relative;
+}
+.pc_nav a em {
+    position: absolute;
+    width:20px;
+    height:1px;
+    background:#0ba1e4;
+    top:40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pc_nav a:first-child {
+    color:#0ba1e4;
+}
+.pc_nav a:hover {
+    color:#0ba1e4;
+}
+.m_nav {
+    line-height: 50px;
+}
+.banner {
+    width:100%;
+    overflow: hidden;
+    margin-top:82px;
+}
+.banner img {
+    max-width: 1920px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.achievement {
+    background:#fff;
+    padding:50px 0;
+}
+.slogan {
+    text-align:center;
+    margin-bottom:30px;
+}
+.slogan h2 {
+    font-size: 36px;
+    font-weight: 300;
+}
+.slogan span {
+    display: inline-block;
+    width:80px;
+    height:2px;
+    background: #0ba1e4;
+    margin:30px auto;
+}
+.slogan p {
+    font-size: 18px;
+    color:#777;
+    margin-bottom: 30px;
+}
+.achievement .detail {
+    list-style: none;
+    padding:0;
+    text-align: center;
+}
+.achievement .detail p {
+    font-size: 70px;
+    line-height: 1.5;
+    color:#0ba1e4;
+    margin-bottom: 10px;
+}
+.achievement .detail span {
+    font-size: 18px;
+    color:#777;
+}
+.advantage {
+    padding:50px 0;
+    background: #e1e1e1;
+}
+.advantage .detail {
+    color:#333;
+    text-align: center;
+    background: #fafafa;
+    border:1px solid #c1c1c1;
+    padding:10px;
+    transition: all 0.5s;
+}
+.advantage .detail i {
+    font-size: 80px;
+    color:#0ba1e4;
+    line-height: 1.5em;
+}
+.advantage .detail h4 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.advantage .detail p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.advantage .detail:hover {
+    color:white;
+    background: #0ba1e4;
+    border-color:transparent;
+    box-shadow: 0 0 15px rgba(11,161,228,0.5);
+}
+.advantage .detail:hover i {
+    color:white;
+}
+.customer {
+    padding:50px 0;
+    background: #f5f5f5;
+}
+.customer .comment {
+    padding:10px;
+    border:1px solid #34a263;
+    border-radius: 5px;
+    position: relative;
+}
+.customer .comment img {
+    display: block;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+.customer .comment p {
+    font-size: 14px;
+    color:#333;
+    margin-bottom: 10px;
+}
+.customer .comment span {
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    padding:0 10px;
+    color:white;
+    background: #aaa;
+}
+.customer .comment em {
+    font-size: 12px;
+    color:#999;
+    line-height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    font-style: normal;
+}
+.customer .comment i {
+    margin-right: 5px;
+}
+.customer .comment:after {
+    content: "";
+    height:20px;
+    width:20px;
+    border-left: inherit;
+    border-bottom: inherit;
+    position: absolute;
+    background: #f5f5f5;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%) translateY(50%) rotate(-45deg);
+}
+.customer .quote {
+    width:70px;
+    height:70px;
+    margin:30px auto 0;
+    background: url("../img/yhgl-icon.svg") no-repeat center;
+}
+.news {
+    padding:50px 0;
+}
+.news .detail {
+    width:100%!important;
+    margin-bottom: 40px;
+}
+.news .detail img {
+    height:100px;
+    margin-right: 8px;
+}
+.news .text {
+    overflow: auto;
+}
+.news .text h5 {
+    display: block;
+    overflow: hidden;
+    font-size:18px;
+    line-height: 30px;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:100%;
+}
+.news .text a {
+    text-decoration: none!important;
+}
+.news .text p {
+    font-size: 12px;
+    line-height:18px;
+    margin:0;
+    color:#999;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    width: 100%;
+}
+.news .text p a {
+    color:inherit;
+    position: absolute;
+    right:10px;
+    bottom:0;
+}
+.news .text p a:hover {
+    color:orange;
+}
+.news .more {
+    text-align: center;
+    font-size: 20px;
+}
+.client {
+    background: #e1e1e1;
+    padding:50px 0 0;
+}
+.client .logo img {
+    display: block;
+    border: 1px solid #c1c1c1;
+    width:100%;
+    background: transparent;
+    margin-bottom: 50px;
+    box-shadow:0 0 15px rgba(11,161,228,0);
+    transition: all 0.5s;
+}
+.client .logo img:hover {
+    border-color:#0ba1e4;
+    background: white;
+    box-shadow:0 0 10px rgba(11,161,228,0.4);
+}
+.question {
+    padding:30px 0;
+    color:white;
+    background: -webkit-linear-gradient(top,#0076d1,#5db8ff);
+}
+.question h3 {
+    font-size: 36px;
+    line-height: 70px;
+    max-width: 10em;
+    margin:0 auto;
+    border-bottom: 2px solid white;
+}
+.question p {
+    font-size: 18px;
+    line-height:40px;
+}
+.question a {
+    display: inline-block;
+    color:white;
+    background: transparent;
+    transition: all 0.5s;
+    text-decoration: none!important;
+    font-size: 24px;
+    line-height:1;
+    padding:15px 30px;
+    border:1px solid white;
+    border-radius:7px;
+}
+.question a:hover {
+    background: white;
+    color:#0ba1e4;
+}
+.footer {
+    background: #363636;
+    color:white;
+}
+.footer .row>div {
+    border-left:2px solid white;
+    margin:30px 0;
+}
+.footer h6 {
+    font-size: 18px;
+    line-height: 40px;
+}
+.footer a {
+    display:inline-block;
+    color:inherit;
+    margin-top:15px;
+    font-size: 14px;
+}
+.footer .wechat img {
+    display: block;
+    width:100%;
+    max-width: 158px;
+}
+.footer .wechat span {
+    font-size: 14px;
+}
+.footer .contact {
+    border-right: 2px solid white;
+}
+.footer .contact p {
+    font-size:30px;
+    height:52px;
+    margin-bottom: 10px;
+}
+.footer .contact p img {
+    width:40px;
+    vertical-align: middle;
+}
+.copyright {
+    background: #666;
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    padding:20px;
+}
+.copyright p {
+    margin-bottom: 30px;
+}
+.copyright a {
+    color: inherit!important;
+    text-decoration: none!important;
+}

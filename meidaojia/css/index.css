@@ -1,0 +1,27 @@
+.slogan {
+    width:100%;
+}
+.slogan img {
+    display: block;
+    width:100%;
+}
+.menu {
+    width:100%;
+    overflow: hidden;
+    margin:10px 0;
+}
+.menu li {
+    float: left;
+    width:50%;
+}
+.menu img {
+    display: block;
+    width:100%;
+}
+.banner {
+    width:100%;
+}
+.banner img {
+    display: block;
+    width:100%;
+}

@@ -1,0 +1,50 @@
+.logo {
+    padding:1.43rem 0;
+    text-align: center;
+    font-size: 0;
+    min-width: 320px;
+}
+.logo img {
+    width:33.33%;
+    max-width: 120px;
+}
+.user_msg {
+    min-width: 320px;
+    padding:0 1.07rem;
+}
+.user_msg input {
+    width:100%;
+    margin: 0 0 1.07rem;
+    border:1px solid #dadada;
+    padding:1.07rem;
+    border-radius:5px;
+    font-size: 1.00rem;
+    line-height:1;
+    color: #666;
+}
+.agree {
+    margin:0.36rem 0;
+    padding: 0 1.07rem;
+    font-size: 1.00rem;
+    color: #333;
+}
+.agree a {
+    font-size: 1.00rem;
+    color: red;
+    text-decoration: underline;
+}
+.agree button {
+     width:100%;
+     margin:1.43rem 0;
+     border:1px solid #dadada;
+     padding:1.07rem 0;
+     border-radius:5px;
+     font-size: 1.14rem;
+     line-height:1;
+     color:white;
+     background: red;
+}
+.agree p span {
+    color: red;
+    line-height: 1;
+}

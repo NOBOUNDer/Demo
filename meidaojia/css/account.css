@@ -1,0 +1,67 @@
+.user {
+    width:100%;
+    text-align: center;
+    background: red;
+    font-size: 0;
+    padding-bottom:1.07rem;
+}
+.user img {
+    width:5.00rem;
+    margin-bottom: 0.71rem;
+    border-radius: 50%;
+}
+.user p {
+    font-size: 1.00rem;
+    line-height: 1;
+    color: #f1f1f1;
+    margin-bottom: 0.36rem;
+}
+.user span {
+    font-size: 1.14rem;
+    color: white;
+    line-height: 1;
+}
+.mine {
+    width:100%;
+    background: white;
+    padding-left:1.07rem;
+}
+.mine a {
+    display: block;
+    padding:1.07rem 0;
+    overflow: hidden;
+    border-bottom: 1px solid #f1f1f1;
+}
+.mine li:last-of-type a{
+    border: none;
+}
+.mine .left {
+    float: left;
+}
+.mine .left img {
+    width:2.14rem;
+    float: left;
+}
+.mine .left p {
+    display: inline-block;
+    font-size: 1.14rem;
+    line-height: 2.14rem;
+    color:#333;
+    float: left;
+    margin-left: 0.86rem;
+}
+.mine .right {
+    float: right;
+    margin-right:1.07rem;
+}
+.mine .right i {
+    font-size:1.71rem;
+    color:#999;
+    line-height: 2.14rem;
+}
+.mine .right span {
+    display: inline-block;
+    font-size: 1.00rem;
+    color:#666;
+    margin-right: 12px;
+}

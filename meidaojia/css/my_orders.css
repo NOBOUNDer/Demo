@@ -1,0 +1,77 @@
+header a {
+    width:30px;
+    height:30px;
+    border:1px solid white;
+    border-radius: 50%;
+    margin-top: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+header a i {
+    color: white;
+    margin:0;
+}
+.status {
+    width: 100%;
+    display: flex;
+    background: white;
+}
+.status a {
+    width:33.33%;
+    font-size: 14px;
+    line-height: 2.86rem;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid white;
+}
+.status a:focus {
+    color:red;
+    border-color:red;
+}
+.list {
+    margin:0.71rem 0;
+    background: white;
+    width:100%;
+}
+.list li {
+    width:100%;
+    position: relative;
+}
+.list a {
+    display: block;
+    padding:1.07rem 0.71rem;
+    width:100%;
+    overflow: hidden;
+}
+.list a img {
+    width:5.00rem;
+    float: left;
+}
+.list .detail {
+    float: left;
+    height:5.00rem;
+    margin-left: 0.71rem;
+}
+.list .detail h6{
+    font-size: 1.14rem;
+    color:#333;line-height: 1;
+    margin-bottom: 0.57rem;
+}
+.list .detail p {
+    font-size: 0.86rem;
+    line-height: 1;
+    color: #999;
+    margin-top:0.36rem;
+}
+.list button {
+    position: absolute;
+    line-height: 2.14rem;
+    font-size: 1.00rem;
+    background: red;
+    color:white;
+    padding:0 1.43rem;
+    border:1px solid red;
+    border-radius: 3px;
+    right: 0.71rem;
+    bottom: 1.07rem;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>云服务器_云主机_弹性云主机租用尽在蓝队云</title>
+    <meta name="keywords" content="弹性云服务器,云主机,BGP云服务器,抗攻击云服务器">
+    <meta name="description" content="蓝队云提供高性能高安全的弹性云服务器，云服务器采用三层存储，切实保护用户数据的安全，同时可弹性扩展的资源用量，提供更省力、更省心、更省钱的云服务器。">
+    <link rel="shortcut icon" type="image/ico" href="https://www.landui.com/ico.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/m.index.css">
+    <link rel="stylesheet" href="../css/m.cloud.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="top-nav">
+    <div class="logo">
+        <a href="../m.index.html"><img src="../img/mobile/logo.png" alt=""></a>
+    </div>
+    <span class="menu-open"></span>
+    <div class="nav-list" >
+        <div class="container" id="nav-h">
+            <ul>
+                <li><a href="">云服务器</a></li>
+                <li><a href="">域名注册</a></li>
+                <li><a href="">云虚拟主机</a></li>
+                <li><a href="">服务器租用</a></li>
+                <li><a href="">服务器托管</a></li>
+                <li><a href="">SSL证书</a></li>
+                <li>
+                    <a href="javascript:void(0)" class="nav-lv2">解决方案</a>
+                    <dl style="height: 0;">
+                        <dt><a href="">金融云解决方案</a></dt>
+                        <dt><a href="">电商云解决方案</a></dt>
+                        <dt><a href="">游戏云解决方案</a></dt>
+                        <dt><a href="">网站云解决方案</a></dt>
+                        <dt><a href="">移动云解决方案</a></dt>
+                        <dt><a href="">视频云解决方案</a></dt>
+                    </dl>
+                </li>
+                <li><a href="">帮助中心</a></li>
+                <li>
+                    <a href="javascript:void(0)" class="nav-lv2">关于我们</a>
+                    <dl style="height: 0;">
+                        <dt><a href="">关于我们</a></dt>
+                        <dt><a href="">发展历程</a></dt>
+                        <dt><a href="">参观公司</a></dt>
+                        <dt><a href="">荣誉资质</a></dt>
+                        <dt><a href="">加入蓝队</a></dt>
+                        <dt><a href="">联系我们</a></dt>
+                    </dl>
+                </li>
+            </ul>
+            <p><a href="">登录</a><a href="">注册</a></p>
+        </div>
+    </div>
+</div>
+    <div class="config-product">
+        <div class="config-productGroup">
+            <ul>
+                <li><h4>基本配置</h4></li>
+                <li><label>地域</label><span>西南1区</span></li>
+                <li><label>CPU</label><span>一核</span></li>
+                <li><label>内存</label><span>1G</span></li>
+            </ul>
+        </div>
+        <div class="config-productGroup">
+            <ul>
+                <li><h4>SSD存储</h4></li>
+                <li><label>SSD系统盘</label><span>免费赠送<em>硬盘40GB</em></span></li>
+                <li><label>数据盘类型</label><span>普通云盘</span></li>
+                <li><label>数据盘</label><span>10GB</span></li>
+            </ul>
+        </div>
+        <div class="config-productGroup">
+            <ul>
+                <li><h4>网络安全</h4></li>
+                <li><label>公网带宽</label><span>1M</span></li>
+                <li><label>防御峰值</label><span>5G</span></li>
+            </ul>
+        </div>
+        <div class="config-productGroup">
+        <ul>
+            <li><h4>系统设置</h4></li>
+            <li><label>系统镜像</label><span>Windows Server  </span></li>
+            <li><label>系统版本</label><span>Windows2003(32位)中文版</span></li>
+            <li><label>登录名</label><span>administrator</span></li>
+            <li><label>登录密码</label><span><em>系统随机生成</em></span></li>
+        </ul>
+        </div>
+        <div class="config-productGroup">
+            <ul>
+                <li><h4>购买量</h4></li>
+                <li><label>购买时长</label><span>1个月 </span></li>
+                <li><label>购买台数</label><span>1台</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="config-price">
+        <span>配置价格：<em>￥49</em></span>
+        <button>立即购买</button>
+    </div>
+    <script>
+        var key=true;
+        var key2=true;
+        $(".menu-open").click(function () {
+            if ((key)) {
+                h=$(window).height()-$(".top-nav").height()-$(".config-price").height();
+                console.log(h);
+                $("body").css({overflowY:'hidden'});
+                $("body").css({height:'100%'})
+                $(this).next().css({height:h});
+                $(this).css({background:"url('../img/mobile/menu_close.png') center no-repeat",backgroundSize:"16px"});
+                /* var height = document.getElementById('nav-h').scrollHeight;    //滚动内容的高度
+                 var boxHeight = 560;   //滚动盒子的高度
+                 console.log(height);
+                 console.log(boxHeight);
+                 $('.nav-list').scroll(function(){
+                     var _top = $('.nav-list').scrollTop();   //滑动距离top的高度
+                     console.log(_top);
+                     if(_top === (height - boxHeight)) {   //理想情况下 滑动到最底部是等于scrollHeight-boxHeight的
+                         $('.nav-list').scrollTop(_top - 1);   //改变scrollTop值 永远滑不到最底部
+                         console.log($('.nav-list').scrollTop);
+                     }});*/
+                key=false;
+            }else{
+                $("body").css({overflowY:''});
+                $(this).next().css({height:""});
+                $(this).css({background:""});
+                key=true;
+            }
+        });
+
+        $(".nav-lv2").click(function () {
+            if (($(this).next().height()==0)) {
+                $(this).next().css({height:"264px"});
+                $(this).css({background:"url('../img/mobile/top_menu_close.png') right center no-repeat",backgroundSize:"12px"});
+                key2=false;
+            }else{
+                $(this).next().css({height:0});
+                $(this).css({background:""});
+                key2=true;
+            }
+        });
+
+        $(".news-title").click(function () {
+            $(".news-title").css({borderTop:"",color:""});
+            $(".news-info dl").css({display:"none"});
+            $(this).css({borderTop:"2px solid dodgerblue",color:"dodgerblue"});
+            $(".news-info dl").eq($(this).index()).css({display: "block"});
+        });
+    </script>
+</body>
+</html>

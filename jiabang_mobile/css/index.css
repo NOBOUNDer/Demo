@@ -1,0 +1,155 @@
+/*/!* 清除默认样式 *!/
+*,:after,:before {
+/!* 通配符选择器无法选中页面中的伪元素 *!/
+    padding:0;
+    margin:0;
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+    /!* 移动端一般用IE盒模型 *!/
+    list-style: none;
+    text-decoration: none;
+    color:inherit;
+    font-weight: normal;
+    font-size:inherit;
+    /!*line-height:0;*!/
+}
+/!* 私有样式 *!/
+html {
+    font-size:12px;
+}
+@media (min-width: 320px) {
+    html {
+        font-size:12px;
+    }
+}
+@media(min-width:375px){
+    html {
+        font-size:14px;
+    }
+}
+@media (min-width:768px) {
+    html {
+        font-size:20px;
+    }
+}
+body {
+    min-width:320px;
+    background: #f6f6f6;
+}
+header {
+    height:4.17rem;
+    padding:0 0.83rem;
+    line-height: 4.17rem;
+    background:white;
+}
+header a {
+    height: inherit;
+    line-height: inherit;
+    position: absolute;
+    left: 0.83rem;
+    font-size:1rem;
+    color:orangered;
+    padding:0 0.83rem;
+}
+header h3 {
+    text-align: center;
+    font-size:1.67rem;
+    color:#777;
+}*/
+.banner img {
+    width:100%;
+    display: block;
+}
+.menu {
+    margin:0.83rem 1.25rem;
+    border:1px solid #dedede;
+    border-radius:3px;
+    /*padding:15px;*/
+    overflow: hidden;
+    padding:0.83rem 0;
+    background: white;
+}
+
+.menu li {
+    width:25%;
+    float: left;
+    padding:0.42rem 0;
+    text-align: center;
+}
+.menu li a {
+    display: block;
+}
+.menu img {
+    max-width:60%;
+}
+.menu p {
+    font-size:1rem;
+    line-height:1.67rem;
+    color:#777777;
+    margin-top:0.42rem;
+}
+.register {
+    margin:0.83rem 1.25rem;
+    border:1px solid #dedede;
+    border-radius:3px;
+    overflow: hidden;
+}
+.register img {
+    width:100%;
+    display: block;
+}
+.brand {
+    margin:10px 15px;
+    border:1px solid #dedede;
+    border-radius:3px;
+    /*padding:15px;*/
+    overflow: hidden;
+
+    background: white;
+}
+.brand a {
+    float:left;
+    padding:0.83rem 0 0.83rem 1.25rem;
+    width:50%;
+    overflow: hidden;
+}
+.brand i {
+    font-size:24px;
+    float:left;
+}
+.brand .text {
+    float: left;
+}
+
+/*
+footer {
+    position: fixed;
+    background: white;
+    bottom: 0;
+    border-top: 1px solid #dadada;
+    width:100%;
+    z-index: 1000;
+}
+.bottom {
+    overflow: hidden;
+}
+.bottom li {
+    float: left;
+    width:33.33%;
+    text-align: center;
+}
+.bottom a {
+    display: block;
+    padding:0.50rem 0;
+    color: #999;
+}
+.bottom i {
+    font-size:1.43rem;
+}
+.bottom p {
+    font-size: 0.86rem;
+}
+.bottom li:nth-of-type(1) a {
+    color:red;
+}*/

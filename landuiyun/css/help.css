@@ -1,0 +1,107 @@
+header {
+  min-height: 360px !important;
+  overflow: visible;
+}
+.help-banner {
+  background: url("../img/banner.jpg") center no-repeat;
+  height: 360px;
+}
+.help-banner .help-container {
+  width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 175px;
+}
+.help-banner .help-container:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.help-banner .help-container h3 {
+  font-size: 36px;
+  float: left;
+}
+.help-banner .help-container .search {
+  float: right;
+}
+.help-banner .help-container .search .text {
+  width: 636px;
+  border: 2px solid #059fff;
+  background: #fff;
+  height: 46px;
+  padding: 0 20px;
+  float: left;
+  font-size: 14px;
+}
+.help-banner .help-container .search .btn {
+  float: left;
+  border: 0;
+  height: 50px;
+  width: 120px;
+  background: url(../img/search.png) center #059fff no-repeat;
+  cursor: pointer;
+}
+.help-banner .help-container .search .hot-search {
+  margin: 12px 0 0;
+  line-height: 25px;
+  overflow: hidden;
+  font-size: 14px;
+  clear: left;
+}
+.help-banner .help-container .search .hot-search span {
+  height: 25px;
+  color: #999999;
+}
+.help-banner .help-container .search .hot-search a {
+  font-size: 14px;
+  color: #059fff;
+  margin-right: 10px;
+}
+.help-classify .classify-title {
+  border-bottom: 1px solid #e3e3e3;
+}
+.help-classify .classify-title .container {
+  width: 1220px;
+  margin: 0 auto;
+}
+.help-classify .classify-title .container:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.help-classify .classify-title .container span:first-of-type {
+  border-bottom: 4px solid #059fff;
+  color: #059fff;
+  float: left;
+}
+.help-classify .classify-title .container span:first-of-type:before {
+  background-position: -59px 2px;
+}
+.help-classify .classify-title .container span:last-of-type {
+  border-bottom: 4px solid #fff;
+  float: right;
+}
+.help-classify .classify-title .container span:last-of-type:before {
+  background-position: -84px 1px;
+}
+.help-classify .classify-title .container span {
+  width: 49%;
+  text-align: center;
+  cursor: pointer;
+  padding: 25px 0;
+  font-size: 18px;
+  transition: all .3s;
+}
+.help-classify .classify-title .container span:hover {
+  border-bottom: 4px solid #059fff;
+  color: #059fff;
+}
+.help-classify .classify-title .container span:before {
+  display: inline-block;
+  content: '';
+  background: url("../img/icons (2).png") no-repeat;
+  width: 17px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+}

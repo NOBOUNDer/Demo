@@ -1,0 +1,41 @@
+.logo {
+    text-align: center;
+}
+.logo img {
+    display: block;
+    width:33.33%;
+    max-width: 120px;
+    margin:1.43rem auto;
+}
+.logo p {
+    font-size: 1.14rem;
+    line-height:1.71rem;
+    color: #999;
+}
+.contact {
+    margin:0.71rem 1.07rem;
+    border:1px solid #dadada;
+    border-radius:5px;
+    padding:0.71rem 0.57rem;
+    background: white;
+}
+.contact h3 {
+    font-size: 1.14rem;
+    padding:1.07rem 0;
+    font-weight: normal;
+    line-height: 1;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+.contact span {
+    font-size: 14px;
+    line-height: inherit;
+    color: #999;
+    margin-left: 0.71rem;
+}
+.contact p {
+    font-size: 1.00rem;
+    color: #666666;
+    padding:0.71rem 0;
+    line-height: 1.43rem;
+}

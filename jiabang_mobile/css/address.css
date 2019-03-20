@@ -1,0 +1,65 @@
+.search {
+    margin: 10px 15px;
+}
+.search input {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1;
+    border:1px solid #dadada;
+    border-radius:5px;
+    width:100%;
+    color: #666;
+}
+.map {
+    margin: 10px 15px;
+    border:1px solid #dadada;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.map img {
+    width:100%;
+    display: block;
+}
+.location {
+    margin: 10px 15px;
+    background: white;
+    border:1px solid #dadada;
+    border-radius:5px;
+    overflow: hidden;
+}
+.location li {
+    padding:10px;
+    border-bottom: inherit;
+    position: relative;
+    top:1px;
+}
+.location h2 {
+    font-size:20px;
+    line-height:30px;
+    color:#666;
+    font-weight: normal;
+}
+.location h3 {
+    font-size: 18px;
+    line-height: 30px;
+    color:#666;
+    font-weight: normal;
+}
+.location p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #999;
+}
+.confirm {
+    margin:30px 15px;
+}
+.confirm button {
+    width: 100%;
+    padding:15px 0;
+    background: red;
+    color:white;
+    font-size: 16px;
+    line-height: 1;
+    border: 1px solid #dadada;
+    border-radius:5px;
+}

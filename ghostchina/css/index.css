@@ -1,0 +1,240 @@
+body {
+    min-width: 320px;
+    background:#ebebeb;
+}
+.logo {
+    background: url("../img/header_bg.jpg") no-repeat center 20%;
+    background-size: cover;
+    padding:75px 0;
+}
+.header_nav {
+    background: white;
+    border-bottom: 2px solid #e1e1e1;
+}
+a {
+    color:inherit;
+    text-decoration: none!important;
+}
+.nav_pc a {
+    line-height: 50px;
+    font-size: 14px;
+    color:#666;
+    border-bottom: 2px solid transparent;
+    padding:0 20px;
+    margin-bottom:-2px;
+}
+.nav_pc a:first-child {
+    border-color: #ff6f00;
+}
+.nav_pc a:hover {
+    color:orangered;
+}
+.con_left .article {
+    padding:30px;
+    background: white;
+    margin-bottom: 30px;
+}
+.nav_m a {
+    font-size:30px;
+    line-height: 50px;
+    color:#666;
+}
+.con_left .title {
+    font-size:35px;
+    font-weight:normal;
+    color:#333;
+    text-align: center;
+    line-height: 1;
+}
+.con_left .img {
+    margin-top:30px;
+}
+.con_left .title a:hover {
+    color:inherit;
+}
+.con_left .meta {
+    font-size: 14px;
+    color:#888;
+    text-align: center;
+    line-height:1;
+    margin-top:20px;
+}
+.con_left .meta a {
+    color:#ff6f00;
+}
+.con_left .meta a:hover {
+    color:orangered;
+    text-decoration: underline!important;
+}
+.con_left .text {
+    font-size: 18px;
+    color:#444;
+    line-height:30px;
+    margin:30px 0;
+}
+.con_left .link a {
+    display: inline-block;
+    color:white;
+    font-size: 16px;
+    background:#e67e22;
+    line-height: 1;
+    padding:10px 15px;border-radius: 3px;
+    margin-bottom:30px;
+}
+.con_left .link a:hover {
+    background: #303030;
+}
+.con_left .remark {
+    font-size:14px;
+    padding-top:25px;
+    border-top:1px solid #ebebeb;
+    color:#999;
+}
+.con_left .remark a:hover {
+    color:#ff6f00;
+    text-decoration: underline!important;
+}
+.con_right .article {
+    padding:20px 30px;
+    background: white;
+    margin-bottom: 30px;
+}
+.con_right .title {
+    font-size:24px;
+    font-weight:400;
+    line-height: 1;
+    color:#303030;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+    margin-bottom:20px;
+}
+.con_right .title em {
+    position: absolute;
+    height:1px;
+    width:30%;
+    background:#e67e22;
+    left: 0;
+    bottom:-1px;
+}
+.community span {
+    font-size: 14px;
+    color:#666;
+    display: block;
+}
+.community p {
+    font-size: 14px;
+    line-height: 1;
+    color:#ff6f00;
+    margin:20px 0;
+}
+.community a:hover {
+    text-decoration: underline!important;
+    color:inherit!important;
+}
+.download a {
+    display: block;
+    font-size: 16px;
+    color:white;
+    line-height: 1;
+    padding:10px 0;
+    background:#e67e22;
+    text-align: center;
+    border-radius: 3px;
+}
+.download a:hover {
+    background:#303030;
+}
+.cloud .links {
+    font-size:0;
+    color:#777;
+}
+.cloud .links a {
+    display: inline-block;
+    font-size: 14px;
+    line-height:1;
+    padding:5px;
+    margin:0 11px 10px 0;
+    border:1px solid #ebebeb;
+}
+.cloud .links a:hover {
+    background:#e67e22;
+    color:white;
+}
+.turn_page {
+    text-align: center;
+    font-size: 14px;
+    color:white;
+    margin:30px auto;
+}
+.turn_page span,.turn_page a {
+    display: inline-block;
+    border-radius: 3px;
+    padding:10px;
+    line-height: 1;
+    background:#e67e22;
+}
+.turn_page a:hover {
+    color:white;
+}
+footer {
+    background: #202020;
+}
+.footer_nav {
+    padding:30px 0;
+}
+.friend,.label_cloud,.partner {
+    padding:0 30px!important;
+}
+.footer_nav .title {
+    font-size:21px;
+    font-weight:400;
+    color: #f4f4f4;
+    line-height: 1;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+    position: relative;
+}
+.footer_nav .title em {
+    position: absolute;
+    width:50%;
+    height:1px;
+    background: #e67e22;
+    bottom:-1px;
+    left:0;
+}
+.footer_nav .link {
+    padding:20px 10px 10px;
+    font-size: 0;
+}
+.footer_nav .link a {
+    display: inline-block;
+    color:#959595;
+    font-size: 14px;
+    line-height:26px;
+    padding:0 7px;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+.label_cloud .link a {
+    border:1px solid #333333;
+}
+.footer_nav .link a:hover {
+    background: #e67e22;
+    color:white;
+}
+.copyright {
+    background:#111;
+    text-align: center;
+    padding:30px 0;
+    color:#555;
+    font-size: 13px;
+    border-top:1px solid #333333;
+}
+.copyright span {
+    margin:0 8px;
+}
+.copyright a:hover {
+    color:inherit!important;
+    text-decoration: underline!important;
+}

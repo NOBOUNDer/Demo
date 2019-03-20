@@ -1,0 +1,110 @@
+.pc_nav a:first-child {
+    color:#777;
+}
+.pc_nav a:hover {
+    color:#0ba1e4;
+}
+main {
+    margin-top:82px;
+}
+main .logo {
+    width:100%;
+    overflow: hidden;
+}
+main .logo img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.sell_point .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sell_point .text h3 {
+    font-size: 30px;
+    color:#0ba1e4;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.sell_point .text span {
+    width:80px;
+    display:inline-block;
+    height:2px;
+    line-height: 0;
+    background: #0ba1e4;
+    position: relative;
+    top:-5px;
+}
+.sell_point .text p {
+    font-size: 20px;
+    color:#999;
+}
+.sell_point .img {
+    text-align: center;
+}
+.sell_point .img img {
+    max-width: 250px;
+    width:100%;
+}
+.point1,.point3,.point5 {
+    background: #f8fbff;
+}
+.process .head {
+    background: #0ba1e4;
+    padding:30px 0;
+}
+.process .head h3 {
+    font-size: 24px;
+    line-height: 30px;
+    color:white;
+    text-align: center;
+}
+.process .detail {
+    padding:50px 0;
+    background: url("../img/urgent_chat.jpg") no-repeat center top;
+}
+.process .detail h2 {
+    font-size: 36px;
+    color:#333;
+    margin-bottom: 0;
+}
+.process .detail span {
+    display: inline-block;
+    width: 80px;
+    height:2px;
+    background: #0ba1e4;
+    position: relative;
+    top:-5px;
+}
+.process .detail p {
+    font-size:20px;
+    color:#999;
+}
+.process .list li {
+    font-size: 18px;
+    line-height: 40px;
+    color:#555;
+}
+.process .detail a {
+    display: inline-block;
+    padding:10px 20px;
+    border:1px solid #d7d7d7;
+    border-radius:5px;
+    font-size: 18px;
+    text-decoration: none!important;
+    transition: all 0.5s;
+}
+.process .detail .online {
+    background: #0ba1e4;
+    color:white;
+}
+.process .detail .online:hover {
+    background: #0b83c4;
+    border-color: #c5c5c5;
+}
+.process .detail .qq {
+    color:#333;
+}
+.process .detail .qq:hover {
+    border-color: #c5c5c5;
+    background: #dfdfdf;
+}

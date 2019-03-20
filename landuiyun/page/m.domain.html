@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>域名注册_域名购买_域名申请_域名查询_蓝队云</title>
+    <meta name="keywords" content="域名注册,域名查询,域名申请,域名购买,注册域名,域名备案,域名注册查询">
+    <meta name="description" content="蓝队云是拥有工信部颁发资质成为CNNIC顶级域名注册服务机构的注册商，为广大用户提供.CN,.GOV.CN,com.cn,.com,.net等域名注册服务，自建域名DNS解析系统，高速稳定。">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/m.index.css">
+    <link rel="shortcut icon" href="../img/mobile/favicon.ico">
+    <link rel="stylesheet" href="../css/m.domain.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <!--顶部导航-->
+    <div class="top-nav">
+    <div class="logo">
+        <a href="../m.index.html"><img src="../img/mobile/logo.png" alt=""></a>
+    </div>
+    <span class="menu-open"></span>
+    <div class="nav-list" >
+        <div class="container" id="nav-h">
+            <ul>
+                <li><a href="">云服务器</a></li>
+                <li><a href="">域名注册</a></li>
+                <li><a href="">云虚拟主机</a></li>
+                <li><a href="">服务器租用</a></li>
+                <li><a href="">服务器托管</a></li>
+                <li><a href="">SSL证书</a></li>
+                <li>
+                    <a href="javascript:void(0)" class="nav-lv2">解决方案</a>
+                    <dl style="height: 0;">
+                        <dt><a href="">金融云解决方案</a></dt>
+                        <dt><a href="">电商云解决方案</a></dt>
+                        <dt><a href="">游戏云解决方案</a></dt>
+                        <dt><a href="">网站云解决方案</a></dt>
+                        <dt><a href="">移动云解决方案</a></dt>
+                        <dt><a href="">视频云解决方案</a></dt>
+                    </dl>
+                </li>
+                <li><a href="">帮助中心</a></li>
+                <li>
+                    <a href="javascript:void(0)" class="nav-lv2">关于我们</a>
+                    <dl style="height: 0;">
+                        <dt><a href="">关于我们</a></dt>
+                        <dt><a href="">发展历程</a></dt>
+                        <dt><a href="">参观公司</a></dt>
+                        <dt><a href="">荣誉资质</a></dt>
+                        <dt><a href="">加入蓝队</a></dt>
+                        <dt><a href="">联系我们</a></dt>
+                    </dl>
+                </li>
+            </ul>
+            <p><a href="">登录</a><a href="">注册</a></p>
+        </div>
+    </div>
+</div>
+    <div class="search">
+        <h3>建立网站，从域名注册开始</h3>
+        <input type="text" placeholder="请输入你想要注册的域名，如：landui"><button class="search-btn"></button>
+        <p><a href="#">whois查询</a><a href="#">域名续费</a></p>
+    </div>
+    <div class="advantage">
+        <h3>优势与特点</h3>
+        <ul>
+            <li>
+                <em>快速</em>
+                <p>超高的解析响应速度，30ms内访问到服务器</p>
+            </li>
+            <li>
+                <em>便捷</em>
+                <p>强大的域名自助管理平台，域名转入/转出自如，修改信息简单方便</p>
+            </li>
+            <li>
+                <em>安全</em>
+                <p>免费域名隐私保护服务，防止注册人信息被盗号导致的骚扰和诈骗</p>
+            </li>
+            <li>
+                <em>放心</em>
+                <p>7X24小时客户服务，随时解答您的问题，让您售后无忧</p>
+            </li>
+        </ul>
+    </div>
+    <!--底部-->
+    <footer>
+        <div class="foot-info">
+            <div class="pc-img"><img src="../img/mobile/skip-pc.png" alt=""></div>
+            <p><a href="">手机版</a><a href="">电脑版</a></p>
+            <span>0871-6388 6388 （总机）</span>
+        </div>
+        <div class="foot-slogn">
+            <ul>
+                <li>
+                    <p>100倍</p>
+                    <span>故障赔偿</span>
+                </li>
+                <li>
+                    <p>5天</p>
+                    <span>无理由退款</span>
+                </li>
+                <li>
+                    <p>7x24h</p>
+                    <span>技术支持</span>
+                </li>
+                <li>
+                    <p>0元</p>
+                    <span>快速备案</span>
+                </li>
+                <li>
+                    <p>1v1</p>
+                    <span>专席秘书</span>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            Copyright © 2013-2018
+            <br>
+            LanDui.com. All Rights Reserved.蓝队云 版权所有
+            <br>
+            增值电信业务许可证：滇B1.B2-20130019
+        </div>
+        <div class="foot-menu">
+            <ul>
+                <li><a href="javascript:;">在线咨询</a></li>
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="m.login.html">我的</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        var key=true;
+        var key2=true;
+        $(".menu-open").click(function () {
+            if ((key)) {
+                h=$(window).height()-$(".top-nav").height()-$(".foot-menu").height();
+                console.log(h);
+                $("body").css({overflowY:'hidden'});
+                $("body").css({height:'100%'})
+                $(this).next().css({height:h});
+                $(this).css({background:"url('../img/mobile/menu_close.png') center no-repeat",backgroundSize:"16px"});
+                /* var height = document.getElementById('nav-h').scrollHeight;    //滚动内容的高度
+                 var boxHeight = 560;   //滚动盒子的高度
+                 console.log(height);
+                 console.log(boxHeight);
+                 $('.nav-list').scroll(function(){
+                     var _top = $('.nav-list').scrollTop();   //滑动距离top的高度
+                     console.log(_top);
+                     if(_top === (height - boxHeight)) {   //理想情况下 滑动到最底部是等于scrollHeight-boxHeight的
+                         $('.nav-list').scrollTop(_top - 1);   //改变scrollTop值 永远滑不到最底部
+                         console.log($('.nav-list').scrollTop);
+                     }});*/
+                key=false;
+            }else{
+                $("body").css({overflowY:''});
+                $(this).next().css({height:""});
+                $(this).css({background:""});
+                key=true;
+            }
+        });
+
+        $(".nav-lv2").click(function () {
+            if (($(this).next().height()==0)) {
+                $(this).next().css({height:"264px"});
+                $(this).css({background:"url('../img/mobile/top_menu_close.png') right center no-repeat",backgroundSize:"12px"});
+                key2=false;
+            }else{
+                $(this).next().css({height:0});
+                $(this).css({background:""});
+                key2=true;
+            }
+        });
+
+        $(".news-title").click(function () {
+            $(".news-title").css({borderTop:"",color:""});
+            $(".news-info dl").css({display:"none"});
+            $(this).css({borderTop:"2px solid dodgerblue",color:"dodgerblue"});
+            $(".news-info dl").eq($(this).index()).css({display: "block"});
+        });
+    </script>
+</body>
+</html>
